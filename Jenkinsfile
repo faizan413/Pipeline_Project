@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/your-ml-project.git' // Replace with your repo
+                git 'https://github.com/your-ml-project.git'
             }
         }
 
